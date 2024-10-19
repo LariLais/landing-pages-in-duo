@@ -11,7 +11,7 @@
 
 header {
   text-align: center;
-  padding: 20px 200px;
+  padding: 5% 20%;
   background-image: url(/imgs/imagem_de_fundo.jpg);
   background-size: cover;
   display: flex;
@@ -29,13 +29,50 @@ header {
   font-weight: bold;
 }
 
+header form {
+  display: flex;
+  padding: 20px;
+  background-color: white;
+  border-radius: 15px;
+}
+
+form fieldset {
+  display: flex;
+  flex-direction: row;
+  border: none;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.caixa {
+  width: 40%;
+  border: none;
+  background-color: #edebf3;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.botao {
+  padding: 10px 20px;
+  background-color: #6246EA;
+  text-transform: uppercase;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+
 /*  CARDS  */
 
 main {
   display: flex;
   flex-direction: column;
-  padding: 20px 200px;
+  padding: 0% 15%;
   gap: 20px;
+}
+
+main h2 {
+  padding: 20px 10px;
 }
 
 #cards {
